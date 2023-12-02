@@ -62,18 +62,25 @@
 
 # print(count)
 
-def length(ls):
-    count = 0
-    for i in ls:
-        count += 1
-    return count
-ls = [1,2,3,4,45,55,65467,6578,8]
-print(length(ls))
+# def length(ls):
+#     count = 0
+#     for i in ls:
+#         count += 1
+#     return count
+# ls = [1,2,3,4,45,55,65467,6578,8]
+# print(length(ls))
 
-ls1 = [1,2,3,4,45,55,65467,6578,8,43,64757,7686,3422,564745]
-print(length(ls1))
-ls2 = ls = [1,2,3,4,45,55,65467,6578,8, "number", "happy"]
-print(length(ls2))
+# ls1 = [1,2,3,4,45,55,65467,6578,8,43,64757,7686,3422,564745]
+# print(length(ls1))
+# ls2 = ls = [1,2,3,4,45,55,65467,6578,8, "number", "happy"]
+# print(length(ls2))
 
 
-    
+# add the elements of the list
+# ls = [1,2,3,4,45,55,65467,6578,8,43,64757,7686,3422]
+# sums = 0
+# for i in ls:
+#     sums+=i
+# print(sums)
+# print(sum(ls))
+
