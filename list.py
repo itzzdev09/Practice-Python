@@ -22,7 +22,7 @@
 # # print(ls[:])
 
 #using fir loop in list`
-ls = [1,2,3,4,45,55,65467,6578,8]
+# ls = [1,2,3,4,45,55,65467,6578,8]
 
 # for i in range(len(ls)):
 #     print(ls[i])
@@ -55,4 +55,25 @@ ls = [1,2,3,4,45,55,65467,6578,8]
 #     if i < ls:
 #         print(i)
 
+# find the length of the list without function
+# count = 0
+# for i in ls:
+#     count+=1
 
+# print(count)
+
+def length(ls):
+    count = 0
+    for i in ls:
+        count += 1
+    return count
+ls = [1,2,3,4,45,55,65467,6578,8]
+print(length(ls))
+
+ls1 = [1,2,3,4,45,55,65467,6578,8,43,64757,7686,3422,564745]
+print(length(ls1))
+ls2 = ls = [1,2,3,4,45,55,65467,6578,8, "number", "happy"]
+print(length(ls2))
+
+
+    
