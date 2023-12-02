@@ -9,6 +9,13 @@
 # print(ls1)
 
 ls = ["devraj", "akshay","prashant"]
-ls.append(999)
-# ls.sort()
+# ls.append(999)
+# # ls.sort()
+# print(ls)
+
+ls.insert(0, "Tesla")
 print(ls)
+
+# del(ls[2])
+
+print(ls[0:1])
